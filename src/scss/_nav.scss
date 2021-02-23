@@ -1,0 +1,8 @@
+.navbar-light .nav-item.active .nav-link {
+    color: $gray;
+    font-size: 1.25rem;
+    font-weight: 600;
+    &:active {
+        color: darken($color: $gray, $amount: 5%);
+    }
+}

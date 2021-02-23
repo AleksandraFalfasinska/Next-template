@@ -1,0 +1,9 @@
+.header__search-input {
+    border: none;
+    border-bottom: 1px solid #717171;
+    width: 80%;
+    &::placeholder {
+        color: $gray-light;
+        font-size: 1.25rem;
+    }
+}

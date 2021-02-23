@@ -1,0 +1,13 @@
+.headline {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 4.0625rem;
+    color: $gray-dark;
+    line-height: .8;
+    &--light {
+        text-transform: capitalize;
+        font-weight: normal;
+        font-size: 1rem;
+        color: $gray-light;
+    }
+}
